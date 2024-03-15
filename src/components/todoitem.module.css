@@ -3,17 +3,27 @@
   color: #353935;
   font-size: 20px;
   margin: 0 auto;
-  /* box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1); */
 }
 
-.todoTitle {
+.todoitem {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  font-weight: bold;
-  padding: 20px;
-  margin: 0;
+  height: 1rem;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-.seprator {
-  border: 2px solid #353935;
-  border-radius: 5px;
+.seperator {
+  border: 1px solid #c7c6c6;
+}
+
+.deleteBtn {
+  border: none;
+  border-radius: 4px;
+  background-color: #f7ca17;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
 }

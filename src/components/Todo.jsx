@@ -9,9 +9,13 @@ const Todo = () => {
   return (
     <div>
       <Form setTodos={setTodos} />
-      <TodoList todos={todos} />
+      <TodoList
+        todos={todos}
+        setTodos={setTodos}
+      />
     </div>
   );
 };
 
+// TODO:complete delete functionallity
 export default Todo;

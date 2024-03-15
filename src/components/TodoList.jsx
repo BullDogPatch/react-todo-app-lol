@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import TodoItem from './TodoItem';
 import styles from './todolist.module.css';
 
@@ -12,8 +13,8 @@ function TodoList({ todos }) {
             />
           ))
         : ''}
-      {/* Video 37 */}
     </div>
   );
 }
+
 export default TodoList;
