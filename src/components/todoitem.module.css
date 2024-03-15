@@ -1,0 +1,23 @@
+.todoitemContainer {
+  display: flex;
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  /* margin: 0 auto; */
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.todoTitle {
+  width: 100%;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+}
+
+.seprator {
+  border: 2px solid #353935;
+  border-radius: 5px;
+}
+
+.btn {
+}
