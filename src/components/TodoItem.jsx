@@ -5,6 +5,7 @@ function TodoItem({ item }) {
     <>
       <div className={styles.todoitemContainer}>
         <div className={styles.todoTitle}>{item}</div>
+        <hr />
       </div>
     </>
   );
